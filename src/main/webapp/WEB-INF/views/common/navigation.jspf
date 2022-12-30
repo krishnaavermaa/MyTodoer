@@ -1,0 +1,23 @@
+
+<header>
+	<c:set var="name" value="${name }" />
+	<nav class="navbar navbar-dark bg-dark">
+		<ul class="nav">
+			<li class="nav-item"><a class="navbar-brand m-1" href="/">ToDoer</a></li>
+		</ul>
+		<ul class="nav justify-content-end">
+			<li class="nav-item"><a class="nav-link m-1" href="/signup">Sign
+					up</a></li>
+			<li class="nav-item">
+				<c:choose>
+					<c:when test="${empty name}">
+						<a class="nav-link m-1" href="/login">Log in</a>
+					</c:when>
+					<c:otherwise>
+						<a class="nav-link m-1" href="/logout">Log out</a>
+					</c:otherwise>
+				</c:choose>
+				</li>
+		</ul>
+	</nav>
+</header>

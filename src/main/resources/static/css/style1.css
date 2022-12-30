@@ -1,0 +1,31 @@
+@charset "ISO-8859-1";
+.flex-container{
+	display:flex;
+	justify-content: center;
+	align-content: center;
+}
+.form-container{
+	padding: 20px 30px;
+}
+.mini-bar{
+  background-color: gray;
+  padding: 10px;
+}
+.row{
+  padding: 10px;
+}
+#form{
+  padding: 16px;
+  border: 1px solid black;
+}
+.err{
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+fieldset{
+	align-items: center;
+}
+label{
+	display:flex;
+	margin:auto;
+}

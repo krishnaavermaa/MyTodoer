@@ -1,0 +1,15 @@
+@charset "ISO-8859-1";
+div#id,div#status,div#target,div#desc{
+	font-weight: bold;
+	text-decoration: underline;
+	border: 0px;
+}
+.form-control{
+	text-decoration: none;
+}
+#datetime,#target{
+	min-width: 160px;
+}
+.main-container{
+	min-width: 770px;
+}
